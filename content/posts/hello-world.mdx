@@ -1,0 +1,40 @@
+---
+title: ブログを始めた
+description: template(shadcn/next-contentlayer)を使って簡単にblogを始める
+date: 2023-12-06
+---
+
+## はじめに
+このブログは2023-12-06に作ったブログです。  
+とりあえず簡単にブログを作りたいなって思ったので[shadcn/next-contentlayer](https://github.com/shadcn/next-contentlayer`)を使って始めました。
+選んだ理由はシンプルで綺麗だからというのと自分でいじるのも楽そうだなって思ったからです。
+
+## 始め方
+[Githubのリポジトリ](https://github.com/shadcn/next-contentlayer)に行きます。
+右上のUse this templateを押して自分のところにもリポジトリを作りクローンもしちゃいましょう。
+そしたらそのフォルダに移動し以下のコマンドを実行します。pnpmが入っていない人は[こちら](https://pnpm.io/ja/installation)を参照してください。
+```
+pnpm install
+```
+次に以下を実行します。
+```
+pnpm run dev
+```
+ブラウザで
+[http://localhost:3000](http://localhost:3000)
+にアクセスするとブログが起動されいるはずです。
+
+## 記事の追加の仕方
+`conten`tフォルダの中に`pages`と`posts`フォルダがあります。記事は`posts`フォルダにmdxファイルを書くことで追加できます。
+
+## 自分が変えた部分
+### フォント
+とりあえずfontを変えたかったので`Noto Sans JP`にしたかったので変えました。
+Googlefontの[フォント](https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto+sans+jp)です。
+### ヘッダー
+Aboutの部分を自分の[ポートフォリオ](https://www.rhappy.dev)に飛ばすようにしました。
+フッターも追加出来たら追加したいな、、、
+
+## まとめ
+多分のこのブログは自分のメモみたいな感じで使ってことになりそうです。
+地道にカスタマイズしていこうと思います。
